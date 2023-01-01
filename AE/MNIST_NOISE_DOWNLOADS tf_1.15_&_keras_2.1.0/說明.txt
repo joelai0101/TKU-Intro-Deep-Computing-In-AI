@@ -1,0 +1,10 @@
+requirements.txt：
+	此檔案為跑mnist_pria_awgn.py需要的套件，
+	可在乾淨的python環境內 並 用cmd切換到本檔案的資料夾執行：
+		pip install -r requirements.txt
+	就會裝好需要的套件。
+	
+mnist_pria_awgn.py：
+	此檔案為生成有雜訊的mnist資料集的程式碼，
+	本程式碼是使用Tf1.15與Keras2.1.0套件，
+	但在架自己的AE時不限定用什麼套件。
